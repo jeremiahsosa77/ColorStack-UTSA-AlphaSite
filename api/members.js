@@ -41,7 +41,7 @@ export default async function handler(req, res) {
     const emailRegex = /^[^\s@]+@(my\.)?utsa\.edu$/;
     if (!emailRegex.test(email)) {
       return res.status(400).json({ 
-        error: 'Please use your UTSA email (john.doe@my.utsa.edu or abc123@utsa.edu)' 
+        error: 'Please use your UTSA email (john.doe@my.utsa.edu)' 
       });
     }
 

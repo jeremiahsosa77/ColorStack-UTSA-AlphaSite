@@ -173,8 +173,8 @@ export default function Home() {
                 transition={{ delay: 0.4 }}
                 className="text-white/70 mb-8 leading-relaxed"
               >
-                We're the UTSA chapter of ColorStack—empowering Black and Latinx tech students 
-                with community, mentorship, and career opportunities. Everyone is welcome.
+                We're the UTSA chapter of ColorStack. Empowering Black and Latinx tech students 
+                with community, mentorship, and career opportunities. Everyone is welcome!
               </motion.p>
 
               {/* Form */}
@@ -367,7 +367,7 @@ export default function Home() {
                 Why ColorStack?
               </h2>
               <p className="text-white/60 max-w-2xl mx-auto">
-                More than just a club—we're a movement to help underrepresented students thrive in tech.
+                More than just a club, we're a movement to help underrepresented students thrive in tech.
               </p>
             </motion.div>
 
